@@ -1,0 +1,23 @@
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>List Students</th>
+    </tr>
+    <tr>
+      <th>ID</th>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let student of studentList">
+      <td>{{ student.id }}</td>
+      <td>{{ student.firstName }}</td>
+      <td>{{ student.lastName }}</td>
+      <td>{{ student.email }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
