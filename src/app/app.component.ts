@@ -30,6 +30,7 @@ export class AppComponent {
       .subscribe(value => {
         this.studentList = value;
       });
+
   }
 
 }
